@@ -1,5 +1,5 @@
 VERSION = "0.1.0"
-
+import re
 
 def greet(name):
     return f"Hello, {name}!"
@@ -13,7 +13,8 @@ def add(a, b):
 
 
 def validate_email(email):
-    return "@" in email
+    pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+    return re.match(pattern, email) is not None
 
 
 if __name__ == "__main__":
