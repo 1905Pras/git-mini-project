@@ -4,6 +4,9 @@ from app import greet, add, validate_email
 def test_greet():
     assert greet("Prasanth") == "Hello, Prasanth!"
 
+def test_greet_capitalizes_name():
+    assert greet("prasanth") == "Hello, Prasanth!"
+
 
 def test_add():
     assert add(2, 3) == 5
