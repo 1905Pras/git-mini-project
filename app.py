@@ -5,7 +5,7 @@ import re
 
 
 def greet(name):
-    return f"Hello, {name.capitalize()}"
+    return f"Hello, {name.capitalize()}!"
 
 def get_user_input():
     return input("Enter your name: ")
