@@ -1,6 +1,6 @@
 from app import greet, add, validate_email
 
-
+#CI test
 def test_greet():
     assert greet("Prasanth") == "Hello, Prasanth"
 
