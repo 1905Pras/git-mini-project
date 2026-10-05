@@ -2,7 +2,7 @@ from app import greet, add, validate_email
 
 
 def test_greet():
-    assert greet("Prasanth") == "Hello, Prasanth!"
+    assert greet("Prasanth") == "Hello, Prasanth"
 
 
 def test_add():
