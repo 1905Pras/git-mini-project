@@ -2,7 +2,7 @@ VERSION = "0.1.0"
 
 
 def greet(name):
-    return f"Hello, {name}!"
+    return f"Hi, {name}!"
 
 def get_user_input():
     return input("Enter your name: ")
