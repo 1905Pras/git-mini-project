@@ -11,3 +11,4 @@ def test_add():
 
 def test_validate_email():
     assert validate_email("test@example.com") is True
+    assert validate_email("testexample.com") is False
