@@ -17,4 +17,5 @@ def validate_email(email):
 
 
 if __name__ == "__main__":
-    print(greet("World"))
+    name = get_user_input()
+    print(greet(name))
