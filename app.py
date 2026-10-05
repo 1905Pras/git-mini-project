@@ -1,8 +1,11 @@
-VERSION = "0.1.0"
+release/v1.0.0
+VERSION = "1.0.0"
+
 import re
 
+
 def greet(name):
-    return f"Hello, {name}!"
+    return f"Hello, {name.capitalize()}"
 
 def get_user_input():
     return input("Enter your name: ")

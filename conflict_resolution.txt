@@ -1,0 +1,12 @@
+Conflict Resolution Report
+==========================
+
+Develop version:
+return f"Hi, {name}!"
+
+Feature version:
+return f"Welcome, {name}!"
+
+Resolution:
+The conflict was resolved manually using:
+return f"Hello, {name.capitalize()}!"
